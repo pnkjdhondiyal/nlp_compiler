@@ -1,0 +1,1 @@
+print(4 / 2) if 2 != 0 else print('Error: Division by zero')
