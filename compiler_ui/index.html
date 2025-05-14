@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Natural Language Compiler</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 Natural Language Compiler</h1>
+    <textarea id="instruction" placeholder="Enter your instruction here..."></textarea>
+    <button onclick="sendInstruction()">Compile & Run</button>
+    
+    <div class="output-section">
+      <h2>Generated Code:</h2>
+      <pre id="codeOutput"></pre>
+      <h2>Execution Output:</h2>
+      <pre id="execOutput"></pre>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
